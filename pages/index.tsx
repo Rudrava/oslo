@@ -11,6 +11,7 @@ export default function Component() {
   }
   return (
     <>
+      {console.log(process.env.HELO)}
       Not signed in <br />
       <button onClick={() => signIn('google')}>Sign in</button>
     </>
